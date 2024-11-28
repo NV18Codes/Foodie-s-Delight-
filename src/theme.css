@@ -1,0 +1,26 @@
+:root {
+    --bg-color-light: #FFF9E6;
+    --text-color-light: #333;
+    --accent-color-light: #FFA726;
+
+    --bg-color-dark: #222;
+    --text-color-dark: #FFF;
+    --accent-color-dark: #FFCC80;
+}
+
+body.light-mode {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+}
+
+body.dark-mode {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+img {
+    filter: brightness(0.9);
+}
+
+body.light-mode img {
+    filter: brightness(1);
+}
